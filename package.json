@@ -29,7 +29,6 @@
   },
   "dependencies": {
     "@types/node": "^20.4.5",
-    "base-convert-int-array": "^1.0.1",
-    "ksuid": "^3.0.0"
+    "base-convert-int-array": "^1.0.1"
   }
 }
