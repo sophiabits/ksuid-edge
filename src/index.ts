@@ -111,6 +111,10 @@ class KSUID {
     return this.compare(other) === 0;
   }
 
+  toJSON() {
+    return this.string;
+  }
+
   toString() {
     return `${this[Symbol.toStringTag]} { ${this.string} }`;
   }
@@ -163,5 +167,4 @@ class KSUID {
   }
 }
 
-module.exports = KSUID;
-export default KSUID;
+export = KSUID;
