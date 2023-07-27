@@ -1,6 +1,6 @@
 {
   "name": "ksuid-edge",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Edge and browser-compatible KSUID generator",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
